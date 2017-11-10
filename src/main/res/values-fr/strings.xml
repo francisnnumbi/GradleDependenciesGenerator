@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+  <string name="app_name">Gradle D Generator</string>
+  <string name="app_sub_name">Centre de Repositoire de Maven</string>
+  <string name="search">Rechercher...</string>
+  <string name="loading">En téléchargement...</string>
+  <string name="done">Fait %d trouvés</string>
+  <string name="error_parsing">Erreur de parse!</string>
+  <string name="connexion_failed">Échec de connection !</string>
+  <string name="dependency_copied">Dépendence copiée au clipboard avec succès</string>
+<string name="inside_gradle">Dans build.gradle, sous le bloc dependencies, c\'est bien là où votre dependence doit être copiée. Appuyez longtemps sur votre dependence dans la list pour la copier au clipboard.</string>
+  <string name="default_info">Rechercher les dépendences</string>
+  <string name="about">À propos</string>
+  <string name="max_search_size">Taille maximum de recherche</string>
+  <string name="modify">Modifier</string>
+
+</resources>

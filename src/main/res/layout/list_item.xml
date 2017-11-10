@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:app="http://schemas.android.com/apk/res-auto"
+  android:layout_height="wrap_content"
+  android:layout_width="match_parent"
+  android:orientation="vertical">
+  <android.support.v7.widget.CardView
+    android:id="@+id/cardview"
+	android:layout_width="match_parent" 
+	android:layout_height="wrap_content"
+	android:clickable="true"
+	app:cardUseCompatPadding="true"
+	android:foreground="?attr/selectableItemBackground"
+	app:cardBackgroundColor="@color/colorPrimaryLight" 
+	app:contentPadding="1dp"
+	app:cardCornerRadius="5dp" 
+	app:cardElevation="1dp"> 
+
+	<RelativeLayout
+	  android:layout_height="match_parent"
+	  android:layout_width="match_parent">
+	  
+	  <TextView
+		android:id="@+id/list_item_group"
+		android:layout_alignParentTop="true"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:text="this is for group"
+
+		android:textStyle="bold"
+		android:textSize="18sp"
+		android:typeface="monospace"
+		android:textColor="#0B4BDC"/>
+
+	  <TextView
+		android:id="@+id/list_item_artifact"
+		android:layout_alignParentBottom="true"
+		android:layout_alignParentLeft="true"
+		android:layout_toLeftOf="@+id/list_item_version"
+		android:layout_below="@+id/list_item_group"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:text="this is for artifact"
+
+		android:textStyle="bold|italic"
+		android:textSize="15sp"
+		android:typeface="sans"
+		android:textColor="#EC1C0F"/>
+
+	  <TextView
+		android:id="@+id/list_item_version"
+		android:layout_alignParentRight="true"
+		android:layout_alignParentBottom="true"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:text="this is for version"
+		android:layout_below="@+id/list_item_group"
+
+		android:textColor="#72C11C"
+		android:textStyle="italic"
+		android:typeface="serif"/>
+
+	</RelativeLayout>
+  </android.support.v7.widget.CardView>
+</LinearLayout>

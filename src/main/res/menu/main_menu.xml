@@ -1,0 +1,19 @@
+<menu
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:tools="http://schemas.android.com/tools"
+  tools:context=".MainActivity">
+
+  <item
+	android:id="@+id/action_search"
+	android:icon="@android:drawable/ic_menu_search"
+	android:title="@string/search"
+	app:showAsAction="always"
+	app:actionViewClass="android.support.v7.widget.SearchView" />
+  <item
+	android:id="@+id/mm_max"
+	android:title="Change max"/>
+  <item
+	android:id="@+id/mm_about"
+	android:title="@string/about"/>
+</menu>

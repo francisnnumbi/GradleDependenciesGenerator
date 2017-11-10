@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+  <string name="app_name">Gradle D Generator</string>
+  <string name="app_sub_name">Maven Center Repository</string>
+  <string name="search">Search...</string>
+  <string name="loading">Loading...</string>
+  <string name="done">Done %d found</string>
+  <string name="error_parsing">Error parsing!</string>
+  <string name="connexion_failed">Connexion failed!</string>
+  <string name="dependency_copied">Depencency copied to clipboard successfully</string>
+  <string name="inside_gradle">Inside build.gradle, under dependencies block, that\'s where your dependency should be copied. Longpress on the dependency in the list to copy it to clipboard.</string>
+  <string name="default_info">Search dependencies</string>
+  <string name="about">About</string>
+  <string name="max_search_size">Max search size</string>
+  <string name="modify">Modify</string>
+  
+</resources>

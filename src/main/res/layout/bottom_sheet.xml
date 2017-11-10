@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.NestedScrollView
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:app="http://schemas.android.com/apk/res-auto"
+  android:id="@+id/main_bottom_sheet"
+  android:layout_width="match_parent"
+  android:layout_height="wrap_content"
+  android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar"
+  android:background="@android:color/transparent"
+  app:behavior_hideable="true"
+  app:layout_behavior="android.support.design.widget.BottomSheetBehavior">
+  <android.support.v7.widget.CardView
+    android:id="@+id/cardview"
+	android:layout_width="match_parent" 
+	android:layout_height="wrap_content"
+	app:cardUseCompatPadding="true"
+	app:cardBackgroundColor="@color/divider" 
+	app:contentPadding="10dp"
+	app:cardCornerRadius="10dp" 
+	app:cardElevation="10dp"> 
+  <LinearLayout
+	android:padding="5dp"
+	android:orientation="vertical"
+	android:layout_width="match_parent"
+	android:layout_height="wrap_content">
+	
+	<TextView
+	  android:id="@+id/bottom_sheetTextView1"
+	  android:text="the best bottom"
+	  android:padding="3dp"
+	  android:gravity="center"
+	  android:layout_width="match_parent"
+	  android:layout_height="wrap_content"
+	  style="@style/TextHeader"/>
+
+	<TextView
+	  android:text="@string/inside_gradle"
+	  android:padding="3dp"
+	  android:layout_width="match_parent"
+	  android:layout_height="wrap_content"
+	  style="@style/TextPrimary"/>
+
+	<TextView
+	  android:id="@+id/bottom_sheetTextView"
+	  android:text="the best bottom"
+	  android:padding="3dp"
+	  android:layout_width="match_parent"
+	  android:layout_height="wrap_content"
+	  style="@style/TextMedium"/>
+
+  </LinearLayout>
+  </android.support.v7.widget.CardView>
+</android.support.v4.widget.NestedScrollView>
+
